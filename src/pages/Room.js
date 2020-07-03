@@ -1,7 +1,8 @@
 import React from "react";
+import Hero from "../Components/Hero";
 
 function Room() {
-  return <div>heelom from room</div>;
+  return <Hero hero="roomsHero"> </Hero>;
 }
 
 export default Room;
